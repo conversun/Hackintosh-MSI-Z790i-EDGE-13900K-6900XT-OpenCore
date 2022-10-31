@@ -5,37 +5,47 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>v1.1</string>
+	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.dhinakg.USBToolBox.map</string>
+	<string>com.Headsoft.USBPorts</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>UTBMap</string>
+	<string>USBPorts</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>PXSX</key>
+		<key>MacPro7,1-PXSX</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
+			<string>AppleUSBMergeNub</string>
 			<key>IONameMatch</key>
 			<string>PXSX</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x32411b21</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>AppleASMediaUSBXHCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>5100</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
 				AgAAAA==
@@ -45,7 +55,9 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>10</integer>
+						<key>name</key>
+						<string>HS01</string>
 						<key>port</key>
 						<data>
 						AgAAAA==
@@ -54,7 +66,9 @@
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>10</integer>
+						<key>name</key>
+						<string>SS01</string>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -62,21 +76,33 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>MacPro7,1</string>
 		</dict>
-		<key>XHCI</key>
+		<key>MacPro7,1-XHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
+			<string>AppleUSBMergeNub</string>
 			<key>IONameMatch</key>
 			<string>XHCI</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x7a608086</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>5100</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
 				GQAAAA==
@@ -86,7 +112,9 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS01</string>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -95,7 +123,9 @@
 					<key>HS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS02</string>
 						<key>port</key>
 						<data>
 						AgAAAA==
@@ -104,7 +134,9 @@
 					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS03</string>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -113,7 +145,9 @@
 					<key>HS04</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS04</string>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -122,7 +156,9 @@
 					<key>HS05</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS05</string>
 						<key>port</key>
 						<data>
 						BQAAAA==
@@ -131,7 +167,9 @@
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS06</string>
 						<key>port</key>
 						<data>
 						BgAAAA==
@@ -141,6 +179,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>9</integer>
+						<key>name</key>
+						<string>HS07</string>
 						<key>port</key>
 						<data>
 						BwAAAA==
@@ -150,6 +190,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
+						<key>name</key>
+						<string>HS08</string>
 						<key>port</key>
 						<data>
 						CAAAAA==
@@ -159,6 +201,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
+						<key>name</key>
+						<string>HS09</string>
 						<key>port</key>
 						<data>
 						CQAAAA==
@@ -168,6 +212,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS01</string>
 						<key>port</key>
 						<data>
 						EwAAAA==
@@ -177,6 +223,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS02</string>
 						<key>port</key>
 						<data>
 						FAAAAA==
@@ -186,6 +234,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS03</string>
 						<key>port</key>
 						<data>
 						FQAAAA==
@@ -195,6 +245,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS04</string>
 						<key>port</key>
 						<data>
 						FgAAAA==
@@ -204,6 +256,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS05</string>
 						<key>port</key>
 						<data>
 						GAAAAA==
@@ -213,6 +267,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS06</string>
 						<key>port</key>
 						<data>
 						GQAAAA==
@@ -220,12 +276,9 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>MacPro7,1</string>
 		</dict>
-	</dict>
-	<key>OSBundleLibraries</key>
-	<dict>
-		<key>com.dhinakg.USBToolBox.kext</key>
-		<string>1.0.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
