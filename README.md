@@ -11,7 +11,7 @@
 * WIFI/Bluetooth: BCM94360Z3
 
 
-## Bios
+## BIOS
 
 * Enable D.T.M
 
