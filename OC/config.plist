@@ -200,7 +200,7 @@
                     <key>Comment</key>
                     <string>V1.6.1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/WhateverGreen</string>
                     <key>MaxKernel</key>
@@ -218,7 +218,7 @@
                     <key>Comment</key>
                     <string>V1.7.6</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleALC</string>
                     <key>MaxKernel</key>
@@ -236,7 +236,7 @@
                     <key>Comment</key>
                     <string>V1.7.6</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleALCU</string>
                     <key>MaxKernel</key>
@@ -704,7 +704,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>-ctrsmt agdpmod=pikera</string>
+                    <string>-ctrsmt</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
