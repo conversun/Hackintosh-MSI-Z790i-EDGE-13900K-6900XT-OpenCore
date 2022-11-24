@@ -599,7 +599,7 @@
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
-                <true/>
+                <false/>
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
@@ -649,7 +649,7 @@
                 <key>PasswordSalt</key>
                 <data></data>
                 <key>ScanPolicy</key>
-                <integer>0</integer>
+                <integer>2687747</integer>
                 <key>SecureBootModel</key>
                 <string>j160</string>
                 <key>Vault</key>
@@ -704,7 +704,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>-ctrsmt agdpmod=pikera shikigva=40 shiki-id=Mac-7BA5B2D9E42DDD94</string>
+                    <string>-ctrsmt agdpmod=pikera shikigva=160 shiki-id=Mac-7BA5B2D9E42DDD94</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
