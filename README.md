@@ -5,15 +5,20 @@
 
 * Mainboard: MSI Z790i EDGE
 * CPU: i9 13900KF
-* RAM: 32G DDR5 * 2 (OC 7000Mhz)
+* RAM: 32G * 2 (OC 7000C34)
 * Boot SSD: SN850X
 * Graphics: 6900XT
-* WIFI/Bluetooth: BCM94360Z3
+* WIFI/Bluetooth: 943602CS(NVME)
 
 
 ## BIOS
 
 * Enable D.T.M
+* Disable Secure Boot
+* CPU Power Unlock
+  * CPU Current Limit(A): 512
+  * Short Duration Power Limit(w): 4096
+* RAM Overclocking: 7000Mhz 34-44-58 1.45V 
 
 
 ## Screenshots
