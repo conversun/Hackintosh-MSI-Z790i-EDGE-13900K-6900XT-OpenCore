@@ -20,6 +20,8 @@
   * Short Duration Power Limit(w): 4096
 * RAM Overclocking: 7000Mhz 34-44-58 1.45V 
 
+![93L6Mx](https://img.trackcloud.top/uPic/93L6Mx.png)
+
 
 ## Screenshots
 
