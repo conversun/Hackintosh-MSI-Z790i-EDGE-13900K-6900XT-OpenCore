@@ -100,7 +100,7 @@
                 <key>RebuildAppleMemoryMap</key>
                 <true/>
                 <key>ResizeAppleGpuBars</key>
-                <integer>0</integer>
+                <integer>-1</integer>
                 <key>SetupVirtualMap</key>
                 <true/>
                 <key>SignalAppleOS</key>
@@ -326,6 +326,24 @@
                     <key>Comment</key>
                     <string>V1.0</string>
                     <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>USBPorts_IntelBT.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0</string>
+                    <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string></string>
@@ -380,7 +398,7 @@
                     <key>Comment</key>
                     <string>V2.3.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBTPatcher</string>
                     <key>MaxKernel</key>
@@ -398,7 +416,7 @@
                     <key>Comment</key>
                     <string>V2.3.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBluetoothFirmware</string>
                     <key>MaxKernel</key>
@@ -416,7 +434,7 @@
                     <key>Comment</key>
                     <string>V2.6.8</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
@@ -639,7 +657,7 @@
                 <key>ScanPolicy</key>
                 <integer>2687747</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>j160</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -1021,6 +1039,8 @@
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
                 <key>ResizeUsePciRbIo</key>
+                <false/>
+                <key>ShimRetainProtocol</key>
                 <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
