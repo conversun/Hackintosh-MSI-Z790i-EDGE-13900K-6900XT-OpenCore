@@ -218,7 +218,7 @@
                     <key>BundlePath</key>
                     <string>AppleALCU.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.5</string>
+                    <string>V1.8.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -470,7 +470,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.0</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
